@@ -1,17 +1,15 @@
-Feature: Add items to be completed to the list
-        In order for me to use the todo app
-        As a user
-        I want to add my desired tasks to the list
+Feature: Add items to do items to the list
+Description: User needs to add tasks to a list as the minimum.
 
-    Scenario: Add 'walk the dog' as a task
-            Given I write 'walk the dog' into the task box
-            When  I click add
-            Then  I want to see 'walk the dog'
+        Scenario: Add 'walk the dog' as a task
+            Given a user has navigated to the homepage
+            When  the user adds 'walk the dog' to the todo list
+            Then  I want to see 'walk the dog' in the list
     
-    Scenario: Add 'Mow the lawn' as a task
-            Given I write 'mow the lawn' into the task box
-            When  I click add
-            Then  I want to see 'mow the lawn' 
+        Scenario: Add 'mow the lawn' as a task
+            Given a user has navigated to the homepage
+            When  the user adds 'mow the lawn' to the todo list
+            Then  I want to see 'mow the lawn' in the list
  
   
     
