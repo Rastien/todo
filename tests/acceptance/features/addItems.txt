@@ -1,0 +1,10 @@
+Feature: Add items to be completed to the list
+Description: As a user I want to be able to add tasks I need to do to my to do list
+Scenario: Add 'walk the dog' as a task
+Given I write 'walk the dog' into the task box
+When  I click add
+Then  I want to see 'walk the dog' in the list
+Scenario: Add 'Mow the lawn' as a task
+Given I write 'Mow the lawn' into the task box
+When  I click add
+Then  I want to see 'Mow the lawn' in the list

@@ -1,6 +1,25 @@
-Feature: Add Item
-Description: As a user I want to be able to add tasks I need to do to my to do list
-Scenario: Add walk the dog to the to do list
-Given a user has navigated to the homepage
-When the user adds "walk dog" to the todo list using the webUI
-Then card "walk dog" should be displayed on the webUI
+Feature: Add items to be completed to the list
+        In order for me to use the todo app
+        As a user
+        I want to add my desired tasks to the list
+
+    Scenario: Add 'walk the dog' as a task
+            Given I write 'walk the dog' into the task box
+            When  I click add
+            Then  I want to see 'walk the dog'
+    
+    Scenario: Add 'Mow the lawn' as a task
+            Given I write 'mow the lawn' into the task box
+            When  I click add
+            Then  I want to see 'mow the lawn' 
+ 
+  
+    
+
+    
+    
+    
+
+
+
+    
