@@ -1,5 +1,5 @@
 Feature: Add items to be completed to the list 
-Description: As a user I want to be able to add tasks I need to do to my to do list
+Description: User needs to add tasks to a list as the minimum
 Scenario: Add walk the dog as a task
 Given I write 'walk the dog' into the task box
 When  I click add
