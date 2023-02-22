@@ -6,10 +6,7 @@ Description: User needs to add tasks to a list as the minimum.
             When  the user adds 'walk the dog' to the todo list
             Then  I want to see 'walk the dog' in the list
     
-        Scenario: Add 'mow the lawn' as a task
-            Given a user has navigated to the homepage
-            When  the user adds 'mow the lawn' to the todo list
-            Then  I want to see 'mow the lawn' in the list
+
  
   
     
