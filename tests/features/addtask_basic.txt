@@ -1,5 +1,5 @@
-Feature: Add items to be completed to the list 
-Description: User needs to add tasks to a list as the minimum
+Feature: Add task to be completed to the list
+Description: User needs to add a single task to the list to be a mvp
 Scenario: Add walk the dog as a task
 Given I write 'walk the dog' into the task box
 When  I click add
