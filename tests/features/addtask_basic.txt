@@ -1,6 +1,0 @@
-Feature: Add task to be completed to the list
-Description: User needs to add a single task to the list to be a mvp
-Scenario: Add walk the dog as a task
-Given I write 'walk the dog' into the task box
-When  I click add
-Then  I want to see 'walk the dog' in the list

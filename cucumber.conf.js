@@ -11,13 +11,13 @@ BeforeAll(async function () {
     });
  });
 
- // Before a scenario create new page with context
+ // Before a scenario create new page with new context
 Before(async function () {
    global.context = await global.browser.newContext();
    global.page = await global.context.newPage();
 });
 
-// After a scenario close the page and close the context
+// After a scenario close the page and clear the context
 After(async function () {
    await global.page.close();
    await global.context.close();
